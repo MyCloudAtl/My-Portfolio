@@ -1,0 +1,194 @@
+#root {
+  max-width: 100%;
+  padding: 2rem 0; /* adjust padding as needed */
+  margin: 0 auto;
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; */
+  text-align: center;
+}
+.Main{
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 90vh;
+}
+.App-container{
+  max-width: 100%;
+  padding: 0 20px; 
+  margin: 0 auto;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body{
+  background-color: #FFFFF0;
+}
+h1{
+  color: #6495ED;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+h2{
+  /* color: #F06161; */
+  text-shadow: #F06161 1px 0 10px;
+  margin-top: 5px;
+  margin-bottom: 500px;
+}
+.Header{
+  font-size: xxx-large;
+  font-family: "Inspiration", cursive;
+}
+.Title{
+  font-size: xx-large;
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 450px;
+}
+.LinkBar{
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-family: "Kaushan Script", cursive;
+}
+.LinkBTN {
+  color: #888;
+  background-color: #6495ED;
+}
+.Footer{
+  background-color: #F0FFFF;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  margin-top: 0%;
+  padding-bottom: 20px;
+  color: #6495ED;
+  width: 100vw;
+}
+h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.LinkBTN {
+  cursor:pointer;
+    position:relative;
+    padding:10px 20px;
+    background:white;
+    font-size:28px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:all 1s;
+    &:after,&:before{
+      content:" ";
+      width:10px;
+      height:10px;
+      position:absolute;
+      border:0px solid #fff;
+      transition:all 1s;
+      }
+    &:after{
+      top:-1px;
+      left:-1px;
+      border-top:5px solid #f39393;
+      border-left:5px solid #6495ED;
+    }
+    &:before{
+      bottom:-1px;
+      right:-1px;
+      border-bottom:5px solid #f39393;
+      border-right:5px solid #6495ED;
+    }
+    &:hover{
+      border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+      /* // background:rgba(0,0,0,.5);
+      // color:white; */
+      &:before,&:after{
+        
+        width:100%;
+        height:100%;
+        /* // border-color:white; */
+      }
+    }
+  }
+  
+  .data-container{
+    background:#ffebee;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  /* .AboutMe{
+    img{
+      display: flex;
+      max-width: 400px;
+      max-height: 400px;
+    }
+    h2{
+      display: flex;
+      color:black;
+      margin-bottom: 5px;
+    }
+    h3{
+      color: black;
+    }
+  } */
+
+  .AboutMe {
+    padding: 20px;
+}
+
+.img-and-heading {
+    display: flex;
+    align-items: center; /* Vertically aligns the img and h2 */
+}
+
+.img-and-heading img {
+    max-width: 400px; /* Adjust size as needed */
+    max-height: 400px;
+    margin-right: 30px; /* Adds space between image and text */
+}
+
+.img-and-heading h2 {
+    color: black;
+    margin: 0;
+}
+
+.AboutMe h3 {
+    color: black;
+    margin-top: 20px;
+}
+
